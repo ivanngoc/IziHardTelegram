@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <StartupObject>MyNamespace.Program</StartupObject>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ProjectName>TelegramAPI</ProjectName>
+    <ProjectGuid>6e3811a3-7a3d-457d-b4f0-51f591c5361b</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Platform)'=='AnyCPU'">
+    <OutputPath>C:\MyBuilds\BotForTelegram\AnyCPU\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x86'">
+    <OutputPath>C:\MyBuilds\BotForTelegram\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Release|x86'">
+    <OutputPath>C:\MyBuilds\BotForTelegram\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Release|x64'">
+    <OutputPath>C:\MyBuilds\BotForTelegram\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>C:\MyBuilds\BotForTelegram\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <Content Include="libs\x64\Debug\zlibd1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <link>zlibd1.dll</link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <Content Include="libs\x64\Debug\libcrypto-3-x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <link>libcrypto-3-x64.dll</link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <Content Include="libs\x64\Debug\libssl-3-x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <link>libssl-3-x64.dll</link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <Reference Include="Telegram.Td">
+      <HintPath>libs\x64\Debug\Telegram.Td.dll</HintPath>
+      <link>Telegram.Td.dll</link>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
