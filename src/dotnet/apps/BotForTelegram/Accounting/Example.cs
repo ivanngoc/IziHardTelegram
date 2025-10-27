@@ -5,8 +5,8 @@
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 //
 
-using Td = Telegram.Td;
-using TdApi = Telegram.Td.Api;
+using Td = global::Telegram.Td;
+using TdApi = global::Telegram.Td.Api;
 
 using System;
 using System.Threading;
@@ -30,7 +30,7 @@ namespace TdExample
 
         private static readonly string _newLine = Environment.NewLine;
         private static readonly string _commandsLine = "Enter command (gc <chatId> - GetChat, me - GetMe, sm <chatId> <message> - SendMessage, lo - LogOut, r - Restart, q - Quit): ";
-        private static volatile string _currentPrompt = null;
+        private static volatile string? _currentPrompt = null;
 
         private static Td.Client CreateTdClient()
         {

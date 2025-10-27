@@ -13,18 +13,18 @@ namespace IziHardGames.BotForTelegram
         public bool Active { get; set; }
 
         [JsonPropertyName("number")]
-        public string Number { get; set; }
+        public string? Number { get; set; }
 
         [JsonPropertyName("api_id")]
         public int ApiId { get; set; }
 
         [JsonPropertyName("api_hash")]
-        public string ApiHash { get; set; }
+        public string? ApiHash { get; set; }
 
         [JsonPropertyName("system_language_code")]
-        public string SystemLanguageCode { get; set; }
+        public string? SystemLanguageCode { get; set; }
         /// TODO: avoid open form
         [JsonPropertyName("pwd")]
-        public string Password { get; set; }
+        public string? Password { get; set; }
     }
 }

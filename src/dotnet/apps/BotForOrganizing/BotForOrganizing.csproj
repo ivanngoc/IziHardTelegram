@@ -12,15 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BotForTelegram\TelegramAPI.csproj" />
   </ItemGroup>
-  <PropertyGroup Condition="'$(Platform)'=='AnyCPU'">
-    <OutputPath>C:\MyBuilds\TgBotForOrganazing\AnyCPU\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x86'">
-    <OutputPath>C:\MyBuilds\TgBotForOrganazing\x86\Debug\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Release|x86'">
-    <OutputPath>C:\MyBuilds\TgBotForOrganazing\x86\Release\</OutputPath>
-  </PropertyGroup>
+
   <ItemGroup>
     <Content Include="..\BotForTelegram\config.json">
       <link>config.json</link>

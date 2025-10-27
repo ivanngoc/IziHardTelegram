@@ -10,7 +10,6 @@
     <ProjectName>TelegramAPI</ProjectName>
     <ProjectGuid>6e3811a3-7a3d-457d-b4f0-51f591c5361b</ProjectGuid>
     <RootNamespace>IziHardGames.ForTelegram</RootNamespace>
-    <OutputPath>C:\MyBuilds\TelegramAPI\$(PlatformTarget)\$(Configuration)</OutputPath>
     <Author>Tran Ngoc Anh</Author>
     <Company>IziHardGames</Company>
   </PropertyGroup>

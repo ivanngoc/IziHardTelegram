@@ -20,7 +20,7 @@ namespace PlaygroundTGWebAPI.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult> Get()
+        public async Task<IActionResult> Get()
         {
             GetMe request = new();
 
