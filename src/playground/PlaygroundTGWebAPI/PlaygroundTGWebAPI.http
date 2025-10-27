@@ -1,0 +1,6 @@
+@PlaygroundTGWebAPI_HostAddress = http://localhost:5193
+
+GET {{PlaygroundTGWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

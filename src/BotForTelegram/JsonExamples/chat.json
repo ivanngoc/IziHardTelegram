@@ -1,0 +1,175 @@
+{
+    id = 249910920
+    type = chatTypePrivate {
+      user_id = 249910920
+    }
+    title = "Ngoc (Ivan) Tran"
+    photo = chatPhotoInfo {
+      small = file {
+        id = 1326
+        size = 0
+        expected_size = 0
+        local = localFile {
+          path = ""
+          can_be_downloaded = true
+          can_be_deleted = false
+          is_downloading_active = false
+          is_downloading_completed = false
+          download_offset = 0
+          downloaded_prefix_size = 0
+          downloaded_size = 0
+            }
+        remote = remoteFile {
+          id = "AQADAgADq6cxG4hW5Q4ACAIAA4hW5Q4ABDb0TingxQHrKQQ"
+          unique_id = "AQADq6cxG4hW5Q4AAQ"
+          is_uploading_active = false
+          is_uploading_completed = true
+          uploaded_size = 0
+            }
+        }
+      big = file {
+        id = 1327
+        size = 0
+        expected_size = 0
+        local = localFile {
+          path = ""
+          can_be_downloaded = true
+          can_be_deleted = false
+          is_downloading_active = false
+          is_downloading_completed = false
+          download_offset = 0
+          downloaded_prefix_size = 0
+          downloaded_size = 0
+            }
+        remote = remoteFile {
+          id = "AQADAgADq6cxG4hW5Q4ACAMAA4hW5Q4ABDb0TingxQHrKQQ"
+          unique_id = "AQADq6cxG4hW5Q4B"
+          is_uploading_active = false
+          is_uploading_completed = true
+          uploaded_size = 0
+            }
+        }
+      minithumbnail = minithumbnail {
+        width = 8
+        height = 8
+        data = bytes [
+                639
+            ] { FF D8 FF E0 00 10 4A 46 49 46 00 01 01 00 00 01 00 01 00 00 FF DB 00 43 00 28 1C 1E 23 1E 19 28 23 21 23 2D 2B 28 30 3C 64 41 3C 37 37 3C 7B 58 5D 49 64 91 80 99 96 8F 80 8C 8A A0 B4 E6 C3 A0 ...
+            }
+        }
+      has_animation = false
+    }
+    permissions = chatPermissions {
+      can_send_messages = true
+      can_send_media_messages = true
+      can_send_polls = true
+      can_send_other_messages = true
+      can_add_web_page_previews = true
+      can_change_info = false
+      can_invite_users = false
+      can_pin_messages = true
+    }
+    last_message = message {
+      id = 14007926784
+      sender_id = messageSenderUser {
+        user_id = 249910920
+        }
+      chat_id = 249910920
+      sending_state = null
+      scheduling_state = null
+      is_outgoing = true
+      is_pinned = false
+      can_be_edited = true
+      can_be_forwarded = true
+      can_be_saved = true
+      can_be_deleted_only_for_self = true
+      can_be_deleted_for_all_users = false
+      can_get_added_reactions = false
+      can_get_statistics = false
+      can_get_message_thread = false
+      can_get_viewers = false
+      can_get_media_timestamp_links = false
+      has_timestamped_media = true
+      is_channel_post = false
+      contains_unread_mention = false
+      date = 1663746011
+      edit_date = 0
+      forward_info = null
+      interaction_info = null
+      unread_reactions = vector[
+            0
+        ] {}
+      reply_in_chat_id = 0
+      reply_to_message_id = 0
+      message_thread_id = 0
+      ttl = 0
+      ttl_expires_in = 0.000000
+      via_bot_user_id = 0
+      author_signature = ""
+      media_album_id = 0
+      restriction_reason = ""
+      content = messageText {
+        text = formattedText {
+          text = "заявка на возврат госпошлины мфц киселевск 620 руб"
+          entities = vector[
+                    0
+                ] {}
+            }
+        web_page = null
+        }
+      reply_markup = null
+    }
+    positions = vector[
+        1
+    ] {
+      chatPosition {
+        list = chatListMain {}
+        order = 9221294784512000004
+        is_pinned = true
+        source = null
+        }
+    }
+    message_sender_id = null
+    has_protected_content = false
+    is_marked_as_unread = false
+    is_blocked = false
+    has_scheduled_messages = false
+    can_be_deleted_only_for_self = true
+    can_be_deleted_for_all_users = false
+    can_be_reported = false
+    default_disable_notification = false
+    unread_count = 0
+    last_read_inbox_message_id = 14007926784
+    last_read_outbox_message_id = 0
+    unread_mention_count = 0
+    unread_reaction_count = 0
+    notification_settings = chatNotificationSettings {
+      use_default_mute_for = false
+      mute_for = 0
+      use_default_sound = true
+      sound_id = -1
+      use_default_show_preview = false
+      show_preview = true
+      use_default_disable_pinned_message_notifications = true
+      disable_pinned_message_notifications = false
+      use_default_disable_mention_notifications = true
+      disable_mention_notifications = false
+    }
+    available_reactions = vector[
+        40
+    ] {
+        "??""??""?""??""??""??""??""??""??""??""??""??""??""??""??""??""??""??""??""??""??""??""??""??""????""??""??""??""??""?""??""??""??""??""??""??""??""??""??""??"
+    }
+    message_ttl = 0
+    theme_name = ""
+    action_bar = null
+    video_chat = videoChat {
+      group_call_id = 0
+      has_participants = false
+      default_participant_id = null
+    }
+    pending_join_requests = null
+    reply_markup_message_id = 0
+    draft_message = null
+    client_data = ""
+}

@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ProjectName>BotForOrganizing</ProjectName>
+    <ProjectGuid>653011ed-b500-4637-9804-004004ceeff4</ProjectGuid>
+    <Author>Tran Ngoc Anh</Author>
+    <Company>IziHardGames</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BotForTelegram\TelegramAPI.csproj" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Platform)'=='AnyCPU'">
+    <OutputPath>C:\MyBuilds\TgBotForOrganazing\AnyCPU\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x86'">
+    <OutputPath>C:\MyBuilds\TgBotForOrganazing\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Release|x86'">
+    <OutputPath>C:\MyBuilds\TgBotForOrganazing\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\BotForTelegram\config.json">
+      <link>config.json</link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <Content Include="..\BotForTelegram\libs\x64\Debug\zlibd1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <link>zlibd1.dll</link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <Content Include="..\BotForTelegram\libs\x64\Debug\libcrypto-3-x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <link>libcrypto-3-x64.dll</link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <Content Include="..\BotForTelegram\libs\x64\Debug\libssl-3-x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <link>libssl-3-x64.dll</link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(PlatformTarget)'=='Debug|x64'">
+    <Reference Include="Telegram.Td">
+      <HintPath>..\BotForTelegram\libs\x64\Debug\Telegram.Td.dll</HintPath>
+      <link>Telegram.Td.dll</link>
+    </Reference>
+  </ItemGroup>
+</Project>

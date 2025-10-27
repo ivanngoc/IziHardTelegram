@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ProjectName>BotAPI</ProjectName>
+    <ProjectGuid>586325a6-573a-4f2d-94e0-d72a23765828</ProjectGuid>
+    <Author>Tran Ngoc Anh</Author>
+    <Company>IziHardGames</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BotForTelegram\TelegramAPI.csproj" />
+  </ItemGroup>
+</Project>

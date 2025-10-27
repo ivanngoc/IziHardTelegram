@@ -1,0 +1,246 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/ngoc/Documents/[Projects] C#/BotForTelegramtWithDotNet",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BotForTelegram.IziHardGames.ChatListWrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BotForTelegram.IziHardGames.ChatListWrap.html",
+          "hash": "r9asZpZ3YV0IAnBoIEeB6Ybv2J0IXIGCbXT4eJLAGHo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BotForTelegram.IziHardGames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BotForTelegram.IziHardGames.html",
+          "hash": "Vw3EGbKIEH9wT32AfxGzSVYs8hb3j1159xOdJkaAaAI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IziHardGames.BotForTelegram.AutomationAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IziHardGames.BotForTelegram.AutomationAccount.html",
+          "hash": "gPvw7e1DGsvuu80UEHYPYvxA+hwapkqEFWVJsT9cGnE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IziHardGames.BotForTelegram.AutomationBot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IziHardGames.BotForTelegram.AutomationBot.html",
+          "hash": "xrkknCsFty+2YnRBQLTXKuQyvi+f3UjfTVK2S6amHII="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IziHardGames.BotForTelegram.ConfigForBotForTelegram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IziHardGames.BotForTelegram.ConfigForBotForTelegram.html",
+          "hash": "1r9CHtYwBMLh170FCb/F/s/f8ZWH8dVRiOaeHr1oZIA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IziHardGames.BotForTelegram.Organizing.BotForOrganizing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IziHardGames.BotForTelegram.Organizing.BotForOrganizing.html",
+          "hash": "9nJa6gLEwCL3T/hmqu9F4SlA/IrO8rm4f0x5AvWF380="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IziHardGames.BotForTelegram.Organizing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IziHardGames.BotForTelegram.Organizing.html",
+          "hash": "Spr2DqRGAE+msF7OEJhmXMSn8ohFiYXNg4DbgVhw+o8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IziHardGames.BotForTelegram.TelegramBot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IziHardGames.BotForTelegram.TelegramBot.html",
+          "hash": "vgkZxxVewqAFKla5gdb4+xavkzVKcGLHinzsjAGlF9k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IziHardGames.BotForTelegram.TelegramClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IziHardGames.BotForTelegram.TelegramClient.html",
+          "hash": "HFSPdRmUwrFTwN30GrmcKCDMXmSuj5j8U8L489qDQ60="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/IziHardGames.BotForTelegram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IziHardGames.BotForTelegram.html",
+          "hash": "ZZo4O2b9mMQOqOHtQfyJsu6u/vSfidhl9Fcxqqf4s9o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "hm8nZ5YDkU2qICp6I439nmKbLSyN+40hhgbCIYJrUQk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Sfnzb7E0fq8hM3W1xoCwrhWpfS/iaFLrTFrNJJKBJ2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "W+bNMULc1RXuL7fNw8G1yVzrMsXGUERdwKO6cai5TpE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "8CCWJPzCMkXkj13Bz7tzHNKbZcES7zVO/s+ud958YZk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 10
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
